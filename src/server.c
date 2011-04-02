@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include "debug.h"
 
 int main(int argc, char* argv[])
 {
-    return 0;
+  ENTER(__func__);
+
+  TRACE_INFO("Hello");
+  return 0;
 }
