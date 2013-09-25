@@ -1,6 +1,5 @@
 TARGET = nanoipc
 CC = gcc
-#CC = cc
 INSTALL = install
 
 PREFIX = /usr/local
